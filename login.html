@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zomato| Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="login-body">
+    <div class="login-page">
+      <div class="login-head">
+        <div>
+          <h1>Login</h1>
+        </div>
+        <div>
+          <a href="index.html"
+            ><i id="close" class="fa-solid fa-xmark fa-2x"></i>
+          </a>
+        </div>
+      </div>
+      <div class="phone">
+        <div>
+          <img src="india.png" height="15px" alt="" />
+          <span style="font-weight: lighter"
+            >+91<i class="fa-solid fa-angle-down"
+              >&nbsp;&nbsp;&nbsp;&nbsp;</i
+            ></span
+          >
+        </div>
+        <div>
+          <input
+            maxlength="10"
+            type="tel"
+            placeholder="Phone"
+            style="width: 280px; height: 30px"
+          />
+        </div>
+      </div>
+      <div class="button-b">
+        <button><span>Send One Time Password</span></button>
+      </div>
+      <div class="line">
+        <div>
+          <hr />
+        </div>
+        <div>
+          <p>or</p>
+        </div>
+        <div>
+          <hr />
+        </div>
+      </div>
+      <div class="button-c">
+        <button>
+          <i id="mail" class="fa-regular fa-envelope"></i
+          ><span>Continue with Email</span>
+        </button>
+      </div>
+      <div class="button-c">
+        <button>
+          <img id="google-logo" src="google logo.png" alt="" /><span id="span-2"
+            >Continue with Google</span
+          >
+        </button>
+      </div>
+      <div class="border-2">
+        <hr />
+      </div>
+      <div class="bottom">
+        <h4>
+          New to Zomato?<a href="signin.html"> <span>Create acount?</span></a>
+        </h4>
+      </div>
+    </div>
+    <script>
+      document
+        .querySelector(".button-b button")
+        .addEventListener("click", () => {
+          alert("OTP has been send to XXXXXXXX52");
+        });
+    </script>
+  </body>
+</html>

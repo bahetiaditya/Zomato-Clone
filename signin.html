@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zomato | Signin</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="signin-body">
+    <div class="signin-page">
+      <div class="login-head">
+        <div>
+          <h1>Sign in</h1>
+        </div>
+        <div>
+          <a href="index.html"
+            ><i id="close" class="fa-solid fa-xmark fa-2x"></i
+          ></a>
+        </div>
+      </div>
+      <div class="signin-phone">
+        <div class="inner-phone">
+          <input
+            type="text"
+            placeholder="Full Name"
+            style="width: 370px; height: 25px"
+          />
+        </div>
+        <label id="p"><span>Please enter a valid name</span></label>
+      </div>
+      <div class="signin-Email">
+        <div class="inner-Email">
+          <input
+            type="email"
+            pattern=".+@globex\.com"
+            placeholder="Email"
+            style="width: 370px; height: 25px"
+            required
+          />
+        </div>
+        <label id="p"><span>Invalid Email id</span></label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" />
+        <p>
+          I agree to Zomato's
+          <span>Terms of Service, Privacy Policy</span> and<br /><span
+            >Content Policies</span
+          >
+        </p>
+      </div>
+      <div class="signin-button-c">
+        <button><span>Create acount</span></button>
+      </div>
+      <div class="line">
+        <div>
+          <hr />
+        </div>
+        <div>
+          <p>or</p>
+        </div>
+        <div>
+          <hr />
+        </div>
+      </div>
+      <div class="signin-button-d">
+        <button>
+          <img id="google-logo" src="google logo.png" alt="" /><span id="span-2"
+            >Continue with Google</span
+          >
+        </button>
+      </div>
+      <div class="bottom">
+        <h4>Already have an acount? <span>Log in</span></h4>
+      </div>
+    </div>
+    <script>
+      document
+        .querySelector(".signin-button-c button")
+        .addEventListener("click", () => {
+          alert("Acount has created");
+        });
+    </script>
+  </body>
+</html>
